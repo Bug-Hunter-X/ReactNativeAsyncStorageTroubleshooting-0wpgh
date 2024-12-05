@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in React Native and you try to access the stored data before it has been fully retrieved. This often happens when you use `getItem` within a `useEffect` hook without checking the returned value or handling potential errors.
